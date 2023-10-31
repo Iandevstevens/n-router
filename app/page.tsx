@@ -14,7 +14,7 @@ const test = () => {
   //   });
 
   return axios
-    .get("https://192.168.2.254/cgi-bin/cgi-cors.sh")
+    .get("https://192.168.2.254:444/cgi-bin/cgi-cors.sh")
     .then((response) => {
       return response.data;
     })
